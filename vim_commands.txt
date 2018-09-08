@@ -9,7 +9,7 @@ ESC             Command
 v               Visual mode
 V               Visual mode (select entire line)
 i               Insert mode
-A               Insert mode (cursor position +1)
+A               Insert mode (end of line)
 :q!             quit w/o saving
 :wq             save and quit
 :w              save
