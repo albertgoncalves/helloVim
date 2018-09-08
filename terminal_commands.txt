@@ -10,4 +10,8 @@ cmd+`           switch between windows of current application
 optn+delete     delete word
 optn+ARROW      move forward/backward by word
 
-open -a "APPNAME" FILENAME  open file with specific application
+open -a "APPNAME" FILENAME
+                open file with specific application
+
+curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
+                create new github repo 'REPO', via user 'USER'
