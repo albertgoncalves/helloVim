@@ -8,6 +8,7 @@ ESC             Command
 -- Command
 v               Visual mode
 V               Visual mode (select entire line)
+cntl+v          Visual Block mode (so cool!)
 i               Insert mode
 A               Insert mode (end of line)
 :q!             quit w/o saving
@@ -85,3 +86,7 @@ d               delete character
 \s              above --> []
 \q              above --> ""
 \c              above --> {}
+
+-- Visual Block
+I --> input text into first position --> ESC --> ...input applied
+                apply selection to entire vertical block (jk)
