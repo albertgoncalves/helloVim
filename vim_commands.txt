@@ -1,4 +1,6 @@
-VIM COMMANDS!
+#
+# VIM COMMANDS!
+#
 
 shift+V         Visual
 I               Insert
@@ -78,7 +80,9 @@ d               delete character
 -*-
 
 
-TERMINAL COMMANDS!
+#
+# TERMINAL COMMANDS!
+#
 
 $ cd /          navigate to lowest directory level
 
