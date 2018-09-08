@@ -18,3 +18,4 @@ echo "xnoremap <leader>c xi{}<Esc>P"                   >> .vimrc
 echo "xnoremap <leader>s xi[]<Esc>P"                   >> .vimrc
 echo "xnoremap <leader>q xi""<Esc>P"                   >> .vimrc
 echo "autocmd BufWritePre * %s/\s\+$//e"               >> .vimrc
+echo "set tabstop=4 shiftwidth=4 expandtab"            >> .vimrc
