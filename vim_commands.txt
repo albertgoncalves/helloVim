@@ -2,9 +2,10 @@
 # VIM COMMANDS!
 #
 
-shift+V         Visual
-I               Insert
 ESC             Command
+V               Visual
+shift+V         Visual (select entire line)
+I               Insert
 
 -- Command
 :q!             quit w/o saving
@@ -70,26 +71,9 @@ dd              delete line
                 this may be wanted after using :set ignorecase to make searches
                 case insensitive
 
---Visual
+-- Visual
 p               paste selection below
 P               paste selection above
 y               copy selection
 x               cut line
 d               delete character
-
--*-
-
-
-#
-# TERMINAL COMMANDS!
-#
-
-$ cd /          navigate to lowest directory level
-
-cmd+`           switch between windows of current application
-
--- enable Use Option as Meta Key in Terminal/Profiles/Preferences/Keyboard --
-optn+delete     delete word
-optn+ARROW      move forward/backward by word
-
-open -a "APPNAME" FILENAME  open file with specific application

@@ -1,0 +1,13 @@
+#
+# TERMINAL COMMANDS!
+#
+
+$ cd /          navigate to lowest directory level
+
+cmd+`           switch between windows of current application
+
+-- enable Use Option as Meta Key in Terminal/Profiles/Preferences/Keyboard --
+optn+delete     delete word
+optn+ARROW      move forward/backward by word
+
+open -a "APPNAME" FILENAME  open file with specific application
