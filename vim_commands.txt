@@ -25,6 +25,8 @@ ctl+w + hjkl    switch between split panes
 :retab          convert all tabs to spaces
                 (need 'set tabstop=4 shiftwidth=4 expandtab' in .vimrc)
 
+.               repeat previous command
+
 cntl+D          scroll half page down
 cntl+U          scroll half page up
 GA              enter Insert at end of file
@@ -51,6 +53,15 @@ L               jump to bottom of screen
 #               previous occurence of selected word
 dw              delete word
 dd              delete line
+o               insert newline below
+O               insert newline above
+x               delete character under cursor
+X               delete character under cursor +1
+rCHAR           replace character under cursor with CHAR without entering
+                Insert mode
+
+/TEXT           search for TEXT (use n and N to continue searching forward or
+                backward)
 
 :%s/foo/bar/g   find each occurrence of 'foo' (in all lines), and replace it
                 with 'bar'
