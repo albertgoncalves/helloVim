@@ -33,6 +33,9 @@ zt              scroll the line with the cursor to the top
 zb              scroll the line with the cursor to the bottom
 u               undo
 cntl+r          redo
+gg              jump to beginning of file
+G               jump to end of file
+#G              jump to line number #
 e               move to end of word
 w               move to beginning of word
 b               move to beginning of previous word
