@@ -1,3 +1,3 @@
-# hello_vim
+# Hello, Vim!
 
 The keys to the Ferrari.
