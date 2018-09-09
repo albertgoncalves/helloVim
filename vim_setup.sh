@@ -2,6 +2,8 @@
 
 cd ~
 
+# echo "export CLICOLOR=1" >> .bash_profile
+
 mkdir -p .vim/syntax
 curl "https://raw.githubusercontent.com/albertgoncalves/haskell.vim/master/syntax/haskell.vim" > .vim/syntax/haskell.vim
 
