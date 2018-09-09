@@ -44,6 +44,8 @@ M               jump to middle of screen
 H               jump to top of screen
 L               jump to bottom of screen
 %               jump to matching bracket { } [ ] ( )
+*               next occurence of selected word
+#               previous occurence of selected word
 dw              delete word
 dd              delete line
 
