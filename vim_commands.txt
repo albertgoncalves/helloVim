@@ -37,8 +37,9 @@ e               move to end of word
 w               move to beginning of word
 b               move to beginning of previous word
 0               jump to beginning of line
-j               jump forward 1 line
-k               jump backward 1 line
+j               jump down 1 line
+k               jump up 1 line
+$               jump to end of line
 M               jump to middle of screen
 H               jump to top of screen
 L               jump to bottom of screen
@@ -89,4 +90,4 @@ d               delete character
 
 -- Visual Block
 I --> input text into first position --> ESC --> ...input applied
-                apply selection to entire vertical block (jk)
+                apply selection to entire vertical block (with j, k, etc.)
