@@ -15,3 +15,8 @@ $ open -a "APPNAME" FILENAME
 
 $ curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
                 create new github repo 'REPO', via user 'USER'
+
+$ git add .     stage all
+$ git commit    commit
+$ git push      push to git
+$ git reset     unstage
