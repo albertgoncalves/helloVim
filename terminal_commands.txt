@@ -20,3 +20,5 @@ $ git add .     stage all
 $ git commit    commit
 $ git push      push to git
 $ git reset     unstage
+$ git rm -r --cached FILENAME
+                remove file from git (if added to .gitignore after init)
