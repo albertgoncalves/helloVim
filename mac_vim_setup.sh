@@ -11,13 +11,14 @@ cd ~
 
 mkdir -p .vim/syntax
 curl "https://raw.githubusercontent.com/albertgoncalves/haskell.vim/master/syntax/haskell.vim" > .vim/syntax/haskell.vim
+curl "https://raw.githubusercontent.com/albertgoncalves/typescript-vim/master/syntax/typescript.vim" > .vim/syntax/typescript.vim
 
 mkdir .vim/colors
 curl "https://raw.githubusercontent.com/albertgoncalves/Gummybears/master/colors/gummybears.vim" > .vim/colors/gummybears.vim
 
-git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/tmp/typescript-vim
-cp ~/.vim/tmp/typescript-vim/syntax/typescript.vim ~/.vim/syntax/
-yes | rm -R ~/.vim/tmp/typescript-vim
+# git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/tmp/typescript-vim
+# cp ~/.vim/tmp/typescript-vim/syntax/typescript.vim ~/.vim/syntax/
+# yes | rm -R ~/.vim/tmp/typescript-vim
 
 echo "syntax on"                                                     > .vimrc
 echo "set colorcolumn=80"                                           >> .vimrc
