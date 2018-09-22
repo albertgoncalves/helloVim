@@ -2,12 +2,10 @@
 
 cd ~
 
-# echo "export PS1=\"\t \w $ \"" >> .bash_profile
-# echo "export CLICOLOR=1"     >> .bash_profile
-# echo "export PS1=\"\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ \""
-# echo "export CLICOLOR=1"
-# echo "export LSCOLORS=ExFxBxDxCxegedabagacad"
-# echo "alias ls='ls -GFh'"
+# echo "export PS1=\"\t \w $ \""                >> .bash_profile
+# echo "export CLICOLOR=1"                      >> .bash_profile
+# echo "export LSCOLORS=ExFxBxDxCxegedabagacad" >> .bash_profile
+# echo "alias ls='ls -GFh'"                     >> .bash_profile
 
 mkdir -p .vim/syntax
 curl "https://raw.githubusercontent.com/albertgoncalves/haskell.vim/master/syntax/haskell.vim" > .vim/syntax/haskell.vim
