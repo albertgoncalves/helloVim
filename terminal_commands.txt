@@ -20,5 +20,10 @@ $ git add .     stage all
 $ git commit    commit
 $ git push      push to git
 $ git reset     unstage
+$ git reset HEAD~
+                also this...
 $ git rm -r --cached FILENAME
                 remove file from git (if added to .gitignore after init)
+
+# HOW TO RECOVER FROM DOING BAD THINGS
+# https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git/22303923#22303923
