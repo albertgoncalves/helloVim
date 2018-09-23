@@ -27,3 +27,7 @@ $ git rm -r --cached FILENAME
 
 # HOW TO RECOVER FROM DOING BAD THINGS
 # https://stackoverflow.com/questions/3640764/can-i-recover-a-branch-after-its-deletion-in-git/22303923#22303923
+
+# $ git reflog
+# $ git fsck --full --no-reflogs --unreachable --lost-found | grep commit | cut -d\  -f3 | xargs -n 1 git log -n 1 --pretty=oneline > .git/lost-found.txt
+# $ git branch commit_rescued BRANCH_ID
