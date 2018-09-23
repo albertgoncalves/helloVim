@@ -18,6 +18,7 @@ $ curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
 
 $ git add .     stage all
 $ git commit    commit
+$ git status    check status of recent commit
 $ git push      push to git
 $ git reset     unstage
 $ git reset HEAD~
