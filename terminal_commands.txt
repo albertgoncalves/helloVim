@@ -13,6 +13,11 @@ $ optn+ARROW    move forward/backward by word
 $ open -a "APPNAME" FILENAME
                 open file with specific application
 
+$ mv ~/Desktop/tmp1/* ~/Desktop/tmp2/
+                move all files from one folder into another
+
+$ ls *.sh       list all files in current directory w/ matching wildcard
+
 $ curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
                 create new github repo 'REPO', via user 'USER'
 
