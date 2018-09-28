@@ -12,7 +12,8 @@ curl "https://raw.githubusercontent.com/albertgoncalves/haskell.vim/master/synta
 curl "https://raw.githubusercontent.com/albertgoncalves/typescript-vim/master/syntax/typescript.vim" > .vim/syntax/typescript.vim
 
 mkdir .vim/colors
-curl "https://raw.githubusercontent.com/albertgoncalves/Gummybears/master/colors/gummybears.vim" > .vim/colors/gummybears.vim
+curl "https://raw.githubusercontent.com/albertgoncalves/gruvbox/master/colors/gruvbox.vim" > .vim/colors/gruvbox.vim
+# curl "https://raw.githubusercontent.com/albertgoncalves/Gummybears/master/colors/gummybears.vim" > .vim/colors/gummybears.vim
 
 # git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/tmp/typescript-vim
 # cp ~/.vim/tmp/typescript-vim/syntax/typescript.vim ~/.vim/syntax/
@@ -21,8 +22,10 @@ curl "https://raw.githubusercontent.com/albertgoncalves/Gummybears/master/colors
 echo "syntax on"                                                     > .vimrc
 echo "set colorcolumn=80"                                           >> .vimrc
 echo "set number"                                                   >> .vimrc
-echo "colorscheme gummybears"                                       >> .vimrc
-echo "highlight ColorColumn ctermbg=7"                              >> .vimrc
+echo "set background=dark"                                          >> .vimrc
+echo "colorscheme gruvbox"                                          >> .vimrc
+# echo "highlight ColorColumn ctermbg=7"                              >> .vimrc
+# echo "highlight Normal ctermbg=black"                               >> .vimrc
 echo "xnoremap <leader>b xi()<Esc>P"                                >> .vimrc
 echo "xnoremap <leader>c xi{}<Esc>P"                                >> .vimrc
 echo "xnoremap <leader>s xi[]<Esc>P"                                >> .vimrc
