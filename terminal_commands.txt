@@ -41,3 +41,6 @@ $ git rm -r --cached FILENAME
 # https://stackoverflow.com/questions/3469741/remove-file-from-the-repository-but-keep-it-locally
 # $ git rm --cached SOMEFILE
                 remove file from repo but preserve local copy
+
+# $ git stash   discard all local changes, but save them for possible re-use
+                later
