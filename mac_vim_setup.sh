@@ -3,6 +3,8 @@
 cd ~
 
 # echo "export PS1=\"\t \w $ \""                >> .bash_profile
+# echo "export PS1=\"\n\t \w \n$ \""            >> .bash_profile
+# echo "export PS1=\"\n\e[0;36m\w\e[m\n$ \""    >> .bash_profile
 # echo "export CLICOLOR=1"                      >> .bash_profile
 # echo "export LSCOLORS=ExFxBxDxCxegedabagacad" >> .bash_profile
 # echo "alias ls='ls -GFh'"                     >> .bash_profile
