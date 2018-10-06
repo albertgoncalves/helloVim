@@ -38,3 +38,4 @@ echo "set tabstop=4 shiftwidth=4 expandtab"                         >> .vimrc
 echo "vmap <leader>y :w! /tmp/vitmp<CR>"                            >> .vimrc
 echo "nmap <leader>p :r! cat /tmp/vitmp<CR>"                        >> .vimrc
 echo "autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript" >> .vimrc
+echo "set cursorline"                                               >> .vimrc
