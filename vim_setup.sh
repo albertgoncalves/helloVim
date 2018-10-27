@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cp gitignore_global ~/.gitignore_global
+
 cd ~
 
 # # echo "export PS1=\"\t \w $ \""                >> .bash_profile
