@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cp gitignore_global ~/.gitignore_global
-# don't forget to add this file to git config!
+git config --global core.excludesfile ~/.gitignore_global
 
 cd ~
 
