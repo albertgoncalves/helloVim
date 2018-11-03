@@ -6,11 +6,18 @@ git config --global core.excludesfile ~/.gitignore_global
 cd ~
 
 cat << 'EOF' >> .bash_profile
+. /Users/albert/.nix-profile/etc/profile.d/nix.sh
 export PS1="-> \w $ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 printf '\e[8;60;85t'
+
+moveleft  () { printf '\e[3;5;5t'  ; }
+moveright () { printf '\e[3;625;5t'; }
+
+export -f moveleft
+export -f moveright
 EOF
 
 mkdir -p .vim/syntax
