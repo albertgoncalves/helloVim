@@ -10,6 +10,7 @@ export PS1="-> \w $ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+printf '\e[8;60;85t'
 EOF
 
 mkdir -p .vim/syntax
