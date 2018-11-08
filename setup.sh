@@ -7,7 +7,7 @@ cd ~
 
 cat << 'EOF' >> .bash_profile
 . /Users/albert/.nix-profile/etc/profile.d/nix.sh
-export PS1="-> \w $ "
+export PS1="\n-> \w $ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
