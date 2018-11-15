@@ -27,6 +27,8 @@ curl "https://raw.githubusercontent.com/albertgoncalves/typescript-vim/master/sy
     .vim/syntax/typescript.vim
 curl "https://raw.githubusercontent.com/albertgoncalves/stan.vim/master/syntax/stan.vim" > \
     .vim/syntax/stan.vim
+curl "https://raw.githubusercontent.com/albertgoncalves/vim-nix/master/syntax/nix.vim" > \
+    .vim/syntax/nix.vim
 
 mkdir .vim/colors
 curl "https://raw.githubusercontent.com/albertgoncalves/gruvbox/master/colors/gruvbox.vim" > \
@@ -48,5 +50,6 @@ vmap <leader>y :w! /tmp/vitmp<CR>
 nmap <leader>p :r! cat /tmp/vitmp<CR>
 autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 autocmd BufNewFile,BufRead *.stan setlocal filetype=stan
+autocmd BufNewFile,BufRead *.nix setlocal filetype=nix
 set cursorline
 EOF
