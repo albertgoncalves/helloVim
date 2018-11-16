@@ -51,5 +51,6 @@ nmap <leader>p :r! cat /tmp/vitmp<CR>
 autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 autocmd BufNewFile,BufRead *.stan setlocal filetype=stan
 autocmd BufNewFile,BufRead *.nix setlocal filetype=nix
+autocmd BufRead *.go retab
 set cursorline
 EOF
