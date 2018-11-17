@@ -97,6 +97,8 @@ P               paste selection above
 y               copy selection
 x               cut line
 d               delete character
+J               remove newlines + leading spaces from selection
+g + J           remove newlines from selection
 \y              copy selection across instances
 \p              paste selection via \y
 \b              add () around selection

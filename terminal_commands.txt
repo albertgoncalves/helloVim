@@ -21,6 +21,9 @@ $ ls *.sh       list all files in current directory w/ matching wildcard
 $ curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
                 create new github repo 'REPO', via user 'USER'
 
+$ grep -rn 'text' ./
+                search all files in current directory for the string 'text'
+
 $ git add .     stage all
 $ git commit    commit
 $ git status    check status of recent commit
