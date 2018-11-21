@@ -61,4 +61,5 @@ cat << 'EOF' >> .tmux.conf
 set-option -g default-shell "/bin/bash"
 set -g default-terminal "xterm-256color"
 set -g status-right '#(date +"%a, %b %d, %Y at %I:%M %p")'
+setw -g mode-keys vi
 EOF
