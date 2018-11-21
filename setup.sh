@@ -18,8 +18,6 @@ moveright () { printf '\e[3;625;5t'; }
 
 export -f moveleft
 export -f moveright
-
-. ~/.bashrc
 EOF
 
 mkdir -p .vim/syntax
@@ -55,4 +53,6 @@ autocmd BufNewFile,BufRead *.stan setlocal filetype=stan
 autocmd BufNewFile,BufRead *.nix setlocal filetype=nix
 autocmd BufRead *.go retab
 set cursorline
+set laststatus=2
+set statusline+=%F
 EOF
