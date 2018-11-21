@@ -18,6 +18,8 @@ moveright () { printf '\e[3;625;5t'; }
 
 export -f moveleft
 export -f moveright
+
+. ~/.bashrc
 EOF
 
 mkdir -p .vim/syntax
