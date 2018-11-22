@@ -45,6 +45,7 @@ xnoremap <leader>c xi{}<Esc>P
 xnoremap <leader>s xi[]<Esc>P
 xnoremap <leader>q xi""<Esc>P
 autocmd BufWritePre * %s/\s\+$//e
+autocmd BufWritePre * retab
 set tabstop=4 shiftwidth=4 expandtab
 vmap <leader>y :w! /tmp/vitmp<CR>
 nmap <leader>p :r! cat /tmp/vitmp<CR>
