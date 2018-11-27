@@ -63,4 +63,8 @@ set-option -g default-shell "/bin/bash"
 set -g default-terminal "xterm-256color"
 set -g status-right '#(date +"%a, %b %d, %Y at %I:%M %p")'
 setw -g mode-keys vi
+bind-key -r -T prefix M-Up    resize-pane -U
+bind-key -r -T prefix M-Down  resize-pane -D
+bind-key -r -T prefix M-Left  resize-pane -L
+bind-key -r -T prefix M-Right resize-pane -R
 EOF
