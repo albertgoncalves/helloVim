@@ -7,7 +7,7 @@ cd ~
 
 cat << 'EOF' >> .bash_profile
 . /Users/albert/.nix-profile/etc/profile.d/nix.sh
-export PS1="\n\w $ "
+export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
