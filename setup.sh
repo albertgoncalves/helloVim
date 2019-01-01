@@ -57,7 +57,10 @@ autocmd BufRead *.go retab
 set cursorline
 set laststatus=2
 set statusline+=%F
+set t_Co=256
 EOF
+
+# last line needed on the Pi!
 
 cat << 'EOF' >> .tmux.conf
 set-option -g default-shell "/bin/bash"
