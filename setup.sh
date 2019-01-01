@@ -11,7 +11,7 @@ export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
-alias ll='ls -l'
+alias ll='ls -al'
 printf '\e[8;60;85t'
 
 moveleft  () { printf '\e[3;5;5t'  ; }
