@@ -12,13 +12,6 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 alias ll='ls -al'
-printf '\e[8;60;85t'
-
-moveleft  () { printf '\e[3;5;5t'  ; }
-moveright () { printf '\e[3;625;5t'; }
-
-export -f moveleft
-export -f moveright
 EOF
 
 mkdir -p .vim/syntax
