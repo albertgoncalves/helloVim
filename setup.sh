@@ -10,6 +10,10 @@ cat << 'EOF' >> .bash_profile
 export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+source .aliases.sh
+EOF
+
+cat << 'EOF' >> .aliases.sh
 alias ls='ls -GFh'
 alias ll='ls -al'
 EOF
