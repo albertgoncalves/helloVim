@@ -7,6 +7,7 @@ cd ~
 
 cat << 'EOF' >> .bashrc
 . /Users/albert/.nix-profile/etc/profile.d/nix.sh
+. /Users/albert/miniconda3/etc/profile.d/conda.sh
 export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
