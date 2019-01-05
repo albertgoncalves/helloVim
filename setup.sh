@@ -5,17 +5,19 @@ git config --global core.excludesfile ~/.gitignore_global
 
 cd ~
 
-cat << 'EOF' >> .bash_profile
+cat << 'EOF' >> .bashrc
 . /Users/albert/.nix-profile/etc/profile.d/nix.sh
 export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-source .aliases.sh
-EOF
-
-cat << 'EOF' >> .aliases.sh
 alias ls='ls -GFh'
 alias ll='ls -al'
+EOF
+
+cat << 'EOF' >> .bash_profile
+if [ -r ~/.bashrc ]; then
+    source ~/.bashrc
+fi
 EOF
 
 mkdir -p .vim/syntax
