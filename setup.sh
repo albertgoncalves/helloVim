@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 cp gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
@@ -11,7 +13,7 @@ cat << 'EOF' >> .bashrc
 export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-alias ls='ls -GFh'
+alias ls='ls --color=auto'
 alias ll='ls -al'
 EOF
 
@@ -21,26 +23,38 @@ if [ -r ~/.bashrc ]; then
 fi
 EOF
 
-mkdir -p .vim/syntax
-curl "https://raw.githubusercontent.com/albertgoncalves/haskell.vim/master/syntax/haskell.vim" > \
-    .vim/syntax/haskell.vim
-curl "https://raw.githubusercontent.com/albertgoncalves/typescript-vim/master/syntax/typescript.vim" > \
-    .vim/syntax/typescript.vim
-curl "https://raw.githubusercontent.com/albertgoncalves/stan.vim/master/syntax/stan.vim" > \
-    .vim/syntax/stan.vim
-curl "https://raw.githubusercontent.com/albertgoncalves/vim-nix/master/syntax/nix.vim" > \
-    .vim/syntax/nix.vim
+stem="https://raw.githubusercontent.com/albertgoncalves"
 
-mkdir .vim/colors
-curl "https://raw.githubusercontent.com/albertgoncalves/gruvbox/master/colors/gruvbox.vim" > \
-    .vim/colors/gruvbox.vim
+syntax_dir="./.vim/syntax"
+if [ ! -e $syntax_dir ]; then
+    mkdir -p $syntax_dir
+fi
+
+curl $stem"/haskell.vim/master/syntax/haskell.vim" > \
+    $syntax_dir/haskell.vim
+curl $stem"/typescript-vim/master/syntax/typescript.vim" > \
+    $syntax_dir/typescript.vim
+curl $stem"/stan.vim/master/syntax/stan.vim" > \
+    $syntax_dir/stan.vim
+curl $stem"/vim-nix/master/syntax/nix.vim" > \
+    $syntax_dir/nix.vim
+
+colors_dir="./.vim/colors"
+if [ ! -e $colors_dir ]; then
+    mkdir -p $colors_dir
+fi
+
+curl $stem"/gruvbox/master/colors/gruvbox.vim" > \
+    $colors_dir/gruvbox.vim
+curl $stem"/vim-desertink/master/colors/desertink.vim" > \
+    $colors_dir/desertink.vim
 
 cat << 'EOF' >> .vimrc
 syntax on
 set colorcolumn=80
 set number
-set background=dark
-colorscheme gruvbox
+" set background=dark
+colorscheme desertink
 xnoremap <leader>b xi()<Esc>P
 xnoremap <leader>c xi{}<Esc>P
 xnoremap <leader>s xi[]<Esc>P
