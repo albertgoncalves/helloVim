@@ -76,6 +76,8 @@ hi Normal ctermbg=232
 hi nonText ctermbg=238
 hi ColorColumn ctermbg=238
 hi CursorLine ctermbg=238
+hi LineNr ctermfg=243
+" hi LineNr ctermbg=234
 EOF
 
 # last line needed on the Pi!
