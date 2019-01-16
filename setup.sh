@@ -72,12 +72,19 @@ set cursorline
 set laststatus=2
 set statusline+=%F
 set t_Co=256
+" hi Normal ctermbg=232
+" hi nonText ctermbg=238
+" hi ColorColumn ctermbg=238
+" hi CursorLine ctermbg=238
+" hi LineNr ctermfg=243
+" " hi LineNr ctermbg=234
 hi Normal ctermbg=232
-hi nonText ctermbg=238
-hi ColorColumn ctermbg=238
-hi CursorLine ctermbg=238
+hi nonText ctermbg=234
+hi ColorColumn ctermbg=234
+hi CursorLine ctermbg=234
+hi CursorLineNr ctermfg=255
 hi LineNr ctermfg=243
-" hi LineNr ctermbg=234
+hi LineNr ctermbg=234
 EOF
 
 # last line needed on the Pi!
