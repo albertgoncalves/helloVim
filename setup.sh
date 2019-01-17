@@ -79,12 +79,12 @@ set t_Co=256
 " hi LineNr ctermfg=243
 " " hi LineNr ctermbg=234
 hi Normal ctermbg=232
-hi nonText ctermbg=234
-hi ColorColumn ctermbg=234
-hi CursorLine ctermbg=234
+hi nonText ctermbg=235
+hi ColorColumn ctermbg=235
+hi CursorLine ctermbg=235
 hi CursorLineNr ctermfg=255
 hi LineNr ctermfg=243
-hi LineNr ctermbg=234
+hi LineNr ctermbg=235
 EOF
 
 # last line needed on the Pi!
