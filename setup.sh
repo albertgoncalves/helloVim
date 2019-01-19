@@ -58,6 +58,10 @@ set statusline+=%F
 set tabstop=4 shiftwidth=4 expandtab
 
 colo apprentice
+hi Normal ctermbg=232
+hi LineNr ctermbg=232
+hi ColorColumn ctermbg=236
+hi CursorLine ctermbg=236
 
 xnoremap <leader>b xi()<Esc>P
 xnoremap <leader>c xi{}<Esc>P
