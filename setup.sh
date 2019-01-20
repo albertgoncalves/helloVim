@@ -51,18 +51,18 @@ cat << 'EOF' >> .vimrc
 syntax on
 set number
 set cursorline
-set t_Co=256
 set colorcolumn=80
 set laststatus=2
 set statusline+=%F
 set tabstop=4 shiftwidth=4 expandtab
+set t_Co=256
 
 colo apprentice
-hi Normal ctermbg=232
-hi LineNr ctermbg=232
-hi ColorColumn ctermbg=236
-hi CursorLine ctermbg=236
-hi Comment ctermfg=242
+hi Normal ctermbg=235
+hi LineNr ctermbg=235
+hi ColorColumn ctermbg=237
+hi CursorLine ctermbg=237
+hi Comment ctermfg=241
 
 xnoremap <leader>b xi()<Esc>P
 xnoremap <leader>c xi{}<Esc>P
