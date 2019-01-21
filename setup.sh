@@ -59,10 +59,12 @@ set t_Co=256
 
 colo apprentice
 hi Normal ctermbg=235
+hi Comment ctermfg=241
+hi LineNr ctermfg=242
 hi LineNr ctermbg=235
 hi ColorColumn ctermbg=237
 hi CursorLine ctermbg=237
-hi Comment ctermfg=241
+hi CursorLineNr ctermbg=237
 
 xnoremap <leader>b xi()<Esc>P
 xnoremap <leader>c xi{}<Esc>P
