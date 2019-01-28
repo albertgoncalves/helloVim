@@ -6,7 +6,7 @@ endif
 
 let g:colors_name="bla"
 
-" apple terminal cursor: block | 'Carnation' | 80% opacity | blink
+" apple terminal cursor: block | 'carnation' | 80% opacity | blink
 hi Normal           ctermfg=231     ctermbg=235     cterm=none
 
 hi CursorLine       ctermfg=none    ctermbg=237     cterm=none
@@ -21,7 +21,6 @@ hi Search           ctermfg=195     ctermbg=197     cterm=none
 hi MatchParen       ctermfg=none    ctermbg=93      cterm=none
 
 hi Comment          ctermfg=243     ctermbg=none    cterm=none
-" hi SpecialComment   ctermfg=15      ctermbg=none    cterm=reverse
 hi SpecialComment   ctermfg=243     ctermbg=none    cterm=none
 
 hi Structure        ctermfg=110     ctermbg=none    cterm=bold
@@ -51,6 +50,7 @@ hi PreProc          ctermfg=15      ctermbg=none    cterm=none
 hi Number           ctermfg=153     ctermbg=none    cterm=none
 hi Float            ctermfg=153     ctermbg=none    cterm=none
 
-" hi Boolean          ctermfg=224     ctermbg=none    cterm=bold
 hi Boolean          ctermfg=218     ctermbg=none    cterm=bold
-hi Underlined       ctermbg=NONE    ctermfg=NONE    cterm=reverse
+hi Underlined       ctermbg=none    ctermfg=none    cterm=reverse
+
+hi Todo             ctermfg=15      ctermbg=none    cterm=reverse
