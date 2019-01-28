@@ -44,8 +44,8 @@ if [ ! -e $colors_dir ]; then
     mkdir -p $colors_dir
 fi
 
-curl $stem"/Apprentice/master/colors/apprentice.vim" > \
-    $colors_dir/apprentice.vim
+curl $stem"/hello_vim/master/colors/bla.vim" > \
+    $colors_dir/bla.vim
 
 cat << 'EOF' >> .vimrc
 syntax on
@@ -57,14 +57,7 @@ set statusline+=%F
 set tabstop=4 shiftwidth=4 expandtab
 set t_Co=256
 
-colo apprentice
-hi Normal ctermbg=235
-hi Comment ctermfg=241
-hi LineNr ctermfg=242
-hi LineNr ctermbg=235
-hi ColorColumn ctermbg=237
-hi CursorLine ctermbg=237
-hi CursorLineNr ctermbg=237
+colo bla
 
 xnoremap <leader>b xi()<Esc>P
 xnoremap <leader>c xi{}<Esc>P
