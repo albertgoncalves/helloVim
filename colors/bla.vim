@@ -3,7 +3,7 @@ let g:colors_name="bla"
 " apple terminal cursor: block | 'carnation' | 80% opacity | blink
 hi Normal           ctermfg=231     ctermbg=235     cterm=none
 hi CursorLine       ctermfg=none    ctermbg=237     cterm=none
-hi CursorLineNr     ctermfg=249     ctermbg=none    cterm=bold
+hi CursorLineNr     ctermfg=249     ctermbg=237     cterm=bold
 hi ColorColumn      ctermfg=none    ctermbg=237     cterm=none
 hi LineNr           ctermfg=243     ctermbg=none    cterm=none
 hi NonText          ctermfg=189     ctermbg=none    cterm=bold
