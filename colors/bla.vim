@@ -35,3 +35,4 @@ hi Underlined       ctermbg=none    ctermfg=none    cterm=reverse
 hi Todo             ctermfg=15      ctermbg=none    cterm=reverse
 hi Title            ctermfg=195     ctermbg=none    cterm=bold
 hi Search           ctermfg=195     ctermbg=none    cterm=bold
+hi Error            ctermfg=195     ctermbg=197     cterm=none
