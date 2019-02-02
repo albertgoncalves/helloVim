@@ -14,10 +14,13 @@ hi Comment          ctermfg=243     ctermbg=none    cterm=none
 hi SpecialComment   ctermfg=243     ctermbg=none    cterm=none
 hi Structure        ctermfg=110     ctermbg=none    cterm=bold
 hi Include          ctermfg=110     ctermbg=none    cterm=none
-hi Keyword          ctermfg=195     ctermbg=none    cterm=bold
-hi Statement        ctermfg=122     ctermbg=none    cterm=bold
+" hi Keyword          ctermfg=195     ctermbg=none    cterm=bold
+hi Keyword          ctermfg=231     ctermbg=none    cterm=bold
+" hi Statement        ctermfg=122     ctermbg=none    cterm=bold
+hi Statement        ctermfg=231     ctermbg=none    cterm=bold
 hi Conditional      ctermfg=195     ctermbg=none    cterm=none
-hi Function         ctermfg=43      ctermbg=none    cterm=bold
+" hi Function         ctermfg=43      ctermbg=none    cterm=bold
+hi Function         ctermfg=231     ctermbg=none    cterm=bold
 hi Type             ctermfg=195     ctermbg=none    cterm=bold
 hi Typedef          ctermfg=195     ctermbg=none    cterm=bold
 hi Special          ctermfg=195     ctermbg=none    cterm=bold
@@ -27,7 +30,8 @@ hi String           ctermfg=109     ctermbg=none    cterm=none
 hi Character        ctermfg=109     ctermbg=none    cterm=none
 hi Number           ctermfg=153     ctermbg=none    cterm=none
 hi Float            ctermfg=153     ctermbg=none    cterm=none
-hi Boolean          ctermfg=231     ctermbg=none    cterm=bold
+" hi Boolean          ctermfg=231     ctermbg=none    cterm=bold
+hi Boolean          ctermfg=230     ctermbg=none    cterm=bold
 hi Constant         ctermfg=15      ctermbg=none    cterm=bold
 hi SpecialChar      ctermfg=15      ctermbg=none    cterm=none
 hi PreProc          ctermfg=15      ctermbg=none    cterm=none
