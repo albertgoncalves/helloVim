@@ -7,36 +7,38 @@ hi CursorLineNr     ctermfg=249     ctermbg=237     cterm=bold
 hi ColorColumn      ctermfg=none    ctermbg=237     cterm=none
 hi LineNr           ctermfg=243     ctermbg=none    cterm=none
 hi NonText          ctermfg=189     ctermbg=none    cterm=bold
-hi Visual           ctermfg=195     ctermbg=197     cterm=none
-hi Search           ctermfg=195     ctermbg=197     cterm=none
+hi Visual           ctermfg=231     ctermbg=197     cterm=none
+hi Search           ctermfg=231     ctermbg=197     cterm=none
 hi MatchParen       ctermfg=none    ctermbg=93      cterm=none
 hi Comment          ctermfg=243     ctermbg=none    cterm=none
 hi SpecialComment   ctermfg=243     ctermbg=none    cterm=none
 hi Structure        ctermfg=110     ctermbg=none    cterm=bold
 hi Include          ctermfg=110     ctermbg=none    cterm=none
-" hi Keyword          ctermfg=195     ctermbg=none    cterm=bold
+" hi Keyword          ctermfg=231     ctermbg=none    cterm=bold
 hi Keyword          ctermfg=231     ctermbg=none    cterm=bold
 " hi Statement        ctermfg=122     ctermbg=none    cterm=bold
 hi Statement        ctermfg=231     ctermbg=none    cterm=bold
-hi Conditional      ctermfg=195     ctermbg=none    cterm=none
+hi Conditional      ctermfg=231     ctermbg=none    cterm=none
 " hi Function         ctermfg=43      ctermbg=none    cterm=bold
 hi Function         ctermfg=231     ctermbg=none    cterm=bold
-hi Type             ctermfg=195     ctermbg=none    cterm=bold
-hi Typedef          ctermfg=195     ctermbg=none    cterm=bold
-hi Special          ctermfg=195     ctermbg=none    cterm=bold
-hi Identifier       ctermfg=195     ctermbg=none    cterm=bold
-hi Operator         ctermfg=195     ctermbg=none    cterm=bold
-hi String           ctermfg=109     ctermbg=none    cterm=none
-hi Character        ctermfg=109     ctermbg=none    cterm=none
-hi Number           ctermfg=153     ctermbg=none    cterm=none
-hi Float            ctermfg=153     ctermbg=none    cterm=none
+hi Type             ctermfg=231     ctermbg=none    cterm=bold
+hi Typedef          ctermfg=231     ctermbg=none    cterm=bold
+hi Special          ctermfg=231     ctermbg=none    cterm=bold
+hi Identifier       ctermfg=231     ctermbg=none    cterm=bold
+hi Operator         ctermfg=231     ctermbg=none    cterm=bold
+" hi Number           ctermfg=109     ctermbg=none    cterm=none
+" hi Float            ctermfg=109     ctermbg=none    cterm=none
+hi String           ctermfg=111     ctermbg=none    cterm=none
+hi Character        ctermfg=111     ctermbg=none    cterm=none
+hi Number           ctermfg=222     ctermbg=none    cterm=bold
+hi Float            ctermfg=222     ctermbg=none    cterm=none
 " hi Boolean          ctermfg=231     ctermbg=none    cterm=bold
-hi Boolean          ctermfg=230     ctermbg=none    cterm=bold
+hi Boolean          ctermfg=210     ctermbg=none    cterm=bold
 hi Constant         ctermfg=15      ctermbg=none    cterm=bold
 hi SpecialChar      ctermfg=15      ctermbg=none    cterm=none
 hi PreProc          ctermfg=15      ctermbg=none    cterm=none
 hi Underlined       ctermbg=none    ctermfg=none    cterm=reverse
 hi Todo             ctermfg=15      ctermbg=none    cterm=reverse
-hi Title            ctermfg=195     ctermbg=none    cterm=bold
-hi Search           ctermfg=195     ctermbg=none    cterm=bold
-hi Error            ctermfg=195     ctermbg=197     cterm=none
+hi Title            ctermfg=231     ctermbg=none    cterm=bold
+hi Search           ctermfg=231     ctermbg=none    cterm=bold
+hi Error            ctermfg=231     ctermbg=197     cterm=none
