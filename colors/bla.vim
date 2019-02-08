@@ -31,9 +31,9 @@ hi Operator         ctermfg=231     ctermbg=none    cterm=bold
 hi String           ctermfg=111     ctermbg=none    cterm=none
 hi Character        ctermfg=111     ctermbg=none    cterm=none
 hi Number           ctermfg=222     ctermbg=none    cterm=bold
-hi Float            ctermfg=222     ctermbg=none    cterm=none
+hi Float            ctermfg=222     ctermbg=none    cterm=bold
 " hi Boolean          ctermfg=231     ctermbg=none    cterm=bold
-hi Boolean          ctermfg=210     ctermbg=none    cterm=bold
+hi Boolean          ctermfg=208     ctermbg=none    cterm=bold
 hi Constant         ctermfg=15      ctermbg=none    cterm=bold
 hi SpecialChar      ctermfg=15      ctermbg=none    cterm=none
 hi PreProc          ctermfg=15      ctermbg=none    cterm=none
