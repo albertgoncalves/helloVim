@@ -12,7 +12,8 @@ hi Search           ctermfg=231     ctermbg=197     cterm=none
 hi MatchParen       ctermfg=none    ctermbg=93      cterm=none
 hi Comment          ctermfg=243     ctermbg=none    cterm=none
 hi SpecialComment   ctermfg=243     ctermbg=none    cterm=none
-hi Structure        ctermfg=110     ctermbg=none    cterm=bold
+" hi Structure        ctermfg=110     ctermbg=none    cterm=bold
+hi Structure        ctermfg=231     ctermbg=none    cterm=bold
 hi Include          ctermfg=110     ctermbg=none    cterm=none
 " hi Keyword          ctermfg=231     ctermbg=none    cterm=bold
 hi Keyword          ctermfg=231     ctermbg=none    cterm=bold
