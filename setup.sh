@@ -4,14 +4,24 @@ set -e
 
 cd ~
 
-cat << 'EOF' >> .bashrc
-. /Users/albert/.nix-profile/etc/profile.d/nix.sh
-. /Users/albert/miniconda3/etc/profile.d/conda.sh
-export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
-export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
-alias ls='ls --color=auto'
-alias ll='ls -al'
+if [ $(uname -s) = "Darwin" ]; then
+    cat << 'EOF' >> .bashrc
+    . /Users/albert/.nix-profile/etc/profile.d/nix.sh
+    . /Users/albert/miniconda3/etc/profile.d/conda.sh
+    export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
+    export LSCOLORS=ExFxBxDxCxegedabagacad
+    alias ls='ls -G'
+    alias ll='ls -l'
+EOF
+else
+    cat << 'EOF' >> .bashrc
+    . /Users/albert/.nix-profile/etc/profile.d/nix.sh
+    . /Users/albert/miniconda3/etc/profile.d/conda.sh
+    export PS1="\n\[\e[1m\]\[\e[36m\][\w]$\[\e[m\]\[\e[0m\] "
+    export CLICOLOR=1
+    export LSCOLORS=ExFxBxDxCxegedabagacad
+    alias ls='ls --color=auto'
+    alias ll='ls -l'
 EOF
 
 cat << 'EOF' >> .bash_profile
