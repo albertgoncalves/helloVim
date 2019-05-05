@@ -49,6 +49,9 @@ curl $stem"/stan.vim/master/syntax/stan.vim" > \
 curl $stem"/vim-nix/master/syntax/nix.vim" > \
     $syntax_dir/nix.vim
 
+curl $stem"/vim-javascript-syntax/master/syntax/javascript.vim" > \
+    $syntax_dir/javascript.vim
+
 colors_dir="./.vim/colors"
 if [ ! -e $colors_dir ]; then
     mkdir -p $colors_dir
