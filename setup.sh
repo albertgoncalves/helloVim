@@ -32,7 +32,7 @@ EOF
 
 stem="https://raw.githubusercontent.com/albertgoncalves"
 
-syntax_dir="./.vim/syntax"
+syntax_dir=~/.vim/syntax
 if [ ! -e $syntax_dir ]; then
     mkdir -p $syntax_dir
 fi
