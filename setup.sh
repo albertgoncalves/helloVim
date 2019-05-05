@@ -49,6 +49,9 @@ curl $stem"/stan.vim/master/syntax/stan.vim" > \
 curl $stem"/vim-nix/master/syntax/nix.vim" > \
     $syntax_dir/nix.vim
 
+curl $stem"/futhark-vim/master/syntax/fut.vim" > \
+    $syntax_dir/fut.vim
+
 curl $stem"/vim-javascript-syntax/master/syntax/javascript.vim" > \
     $syntax_dir/javascript.vim
 
@@ -85,6 +88,7 @@ autocmd BufWritePre * retab
 autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 autocmd BufNewFile,BufRead *.stan setlocal filetype=stan
 autocmd BufNewFile,BufRead *.nix setlocal filetype=nix
+autocmd BufNewFile,BufRead *.fut setlocal filetype=fut
 autocmd BufRead *.go retab
 EOF
 
