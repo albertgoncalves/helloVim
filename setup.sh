@@ -69,7 +69,7 @@ set number
 set cursorline
 set colorcolumn=80
 set laststatus=2
-set statusline+=%F
+set statusline+=%F\ %l:%c
 set tabstop=4 shiftwidth=4 expandtab
 set t_Co=256
 
