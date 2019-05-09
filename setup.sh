@@ -49,7 +49,7 @@ curl $stem"/stan.vim/master/syntax/stan.vim" > \
 curl $stem"/vim-nix/master/syntax/nix.vim" > \
     $syntax_dir/nix.vim
 
-curl $stem"/futhark-vim/master/syntax/fut.vim" > \
+curl $stem"/futhark-vim/simplify/syntax/fut.vim" > \
     $syntax_dir/fut.vim
 
 curl $stem"/vim-javascript-syntax/master/syntax/javascript.vim" > \
