@@ -55,6 +55,9 @@ curl $stem"/futhark-vim/simplify/syntax/fut.vim" > \
 curl $stem"/vim-javascript-syntax/master/syntax/javascript.vim" > \
     $syntax_dir/javascript.vim
 
+curl $stem"/rust.vim/blob/master/syntax/rust.vim" > \
+    $syntax_dir/rust.vim
+
 colors_dir="./.vim/colors"
 if [ ! -e $colors_dir ]; then
     mkdir -p $colors_dir
